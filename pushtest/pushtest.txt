@@ -1,0 +1,16 @@
+﻿プッシュのテスト
+
+ファイルを作成したら、「git add」コマンドでファイルをインデックスに追加します。インデックスに追加することでGitで管理する対象のファイルになります。
+
+$ git add pushtest.txt
+インデックスの追加を実施したら、リポジトリに登録します。登録には「git commit」コマンドを実行します。
+
+$ git commit -m “pushコマンドの確認”
+指定した引数はこのリポジトリの内容を表します。成功すると以下のように表示されます。
+
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+これでリポジトリの登録が完了しました。
+
